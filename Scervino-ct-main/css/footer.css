@@ -1,0 +1,33 @@
+footer{
+    background-color:#4D6A55;
+    height: 40vh;
+}
+
+.green_detail{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 2489px;
+height: 1045.57px;
+left: -578px;
+top: 1122px;
+}
+
+.map{
+    padding-left: 670px;
+    padding-top: 130px;
+    background-color: black;
+}
+
+.redes_sc{
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.contato{
+    background-color: purple;
+    justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+:root{
+    --accent-color: #55775E ;
+    --accent-color: #BBC9BF;
+
+}
+
+#container {
+  display: inline-block;
+  position: relative;
+}
+
+#container figcaption {
+  position: absolute;
+  top: 145px;
+  font-size: 32px;
+  color: white;
+  text-shadow: 2px 4px 0px black;
+  font-family: 'Mulish', sans-serif;
+  margin-left: 13cm;
+}
+
+.img_vagas{
+    width: 1903px;
+}

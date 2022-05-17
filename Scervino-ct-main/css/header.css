@@ -1,0 +1,29 @@
+
+.header{
+    height: 20vh;
+    background-color: #BBC9BF;
+}
+
+.title_vagas{
+    background-color: #BBC9BF;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    color: #07280F;
+    font-size: 24px;
+    height: 13vh;
+}
+
+
+
+.linha-horizontal {
+    position: absolute;
+    border: 1px solid #000;
+    opacity: 0.8;
+    width: 550px;
+    margin-left: 670px;
+    margin-top: -15px;
+    
+}
+
+
