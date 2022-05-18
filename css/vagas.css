@@ -30,18 +30,23 @@
   #container figcaption {
     position: absolute;
     top: 250px;
-    font-size: 32px;
+    font-size: 2.4rem;
     color: white;
     text-shadow: 2px 4px 0px black;
     font-family: 'Mulish', sans-serif;
-    margin-left: 550px;
+    width: 1000px;
+   
+    flex-wrap: wrap;
+    margin-left: 29%;
+    margin-bottom: 15%;
+
+    
+
     
   }
   
   .img_vagas{ 
       width: 100%;
-      background-color: black;
-      
   }
   
   
@@ -53,15 +58,22 @@
       display: flex;
       position: relative;
   }
+
+  .boxes{
+      margin-top: -55px;
+      margin-left: 100px;
+      gap: 200px;
+      display: flex;
+      flex-wrap: wrap;
+  }
   
   .Analista_ambiental{
       height: 200px;
       width: 500px;
       background-color: white;
       box-shadow: 0px 0px 4px black;
-      margin-top: 150px;
-      margin-left: 110px;
-      position: absolute;
+ 
+      
   }
   
   .Auxiliar{
@@ -69,9 +81,8 @@
       width: 500px;
       background-color: white;
       box-shadow: 0px 0px 3px black;
-      margin-top: 150px;
-      margin-left: 800px;
-      position: absolute;
+      
+      
   }
   
   .Embalador{
@@ -79,9 +90,8 @@
       width: 500px;
       background-color: white;
       box-shadow: 0px 0px 4px black;
-      margin-top: 500px;
-      margin-left: 110px;
-      position: absolute;
+      
+      
   }
   
   .Assistente{
@@ -89,15 +99,14 @@
       width: 500px;
       background-color: white;
       box-shadow: 0px 0px 4px black;
-      margin-top: 500px;
-      margin-left: 800px;
-      position: absolute;
+      
+     
   }
   
   .filtrar{
       display: flex;
       background-color: #73907C;
-      border-radius: 2px;
+      border-radius: 5px;
       width: 300px;
       height: 55px;
       font-family: 'Mulish', sans-serif;
@@ -106,7 +115,10 @@
       align-items: center;
       margin-left: 1470px;
       margin-top: 150px;
-      position: absolute;
+      
       box-sizing: border-box;
   }
-  
+   
+  .search{
+      margin-left: 5%;
+  }
