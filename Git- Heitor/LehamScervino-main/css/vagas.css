@@ -1,0 +1,153 @@
+.vagas_container{
+    width: 100%;
+    background-color:#BBC9BF;
+    display: flex;
+    position: relative;
+}
+
+.boxes{
+    margin-top: -55px;
+    margin-left: 100px;
+    gap: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 4px black; 
+    transition: all 0.4s;
+}
+
+.box1:hover { background: #BBC9BF;
+}
+
+.box2{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    transition: all 0.4s;  
+}
+
+.box2:hover { background: #BBC9BF;
+}
+
+.box3{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 4px black;
+    transition: all 0.4s; 
+}
+
+.box3:hover { background: #BBC9BF;
+}
+
+.box4{
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 4px black;
+    transition: all 0.4s;
+}
+
+.box4:hover { background: #BBC9BF;
+}
+
+.analista{
+  height: 219px;
+}
+
+.aux{
+  height: 219px;
+}
+
+.embalador{
+  height: 220px;
+}
+
+.assistente_{
+  height: 220px;
+}
+
+.analista_ambiental{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #54775E;
+}
+
+.auxiliar_adm{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #54775E;
+}
+
+.embalador_maquina{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #54775E;
+}
+
+.assistente_treinamento{
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #54775E;
+}
+
+.filtrar{
+    display: flex;
+    background-color: #54775E;
+    border-radius: 5px;
+    width: 300px;
+    height: 55px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 100px;
+    align-items: center;
+    margin-left: 1470px;
+    margin-top: 150px;
+    
+    box-sizing: border-box;
+}
+ 
+.cargos{
+  font-size: 1.5rem;
+  color: #000;
+  font-family: 'Lustria', serif;
+  display: flex;
+  lign-items: center;
+  margin-left: 79.6%;
+}
+
+.periodos{
+  font-size: 1.5rem;
+  color: #000;
+  font-family: 'Lustria', serif;
+  display: flex;
+  lign-items: center;
+  margin-left: 79.6%;
+}
+
+.area{
+  font-size: 1.5rem;
+  color: #000;
+  font-family: 'Lustria', serif;
+  display: flex;
+  lign-items: center;
+  margin-left: 79.6%;
+}
+
+.search{
+    margin-left: 5%;
+}
